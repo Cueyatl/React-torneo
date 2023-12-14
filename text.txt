@@ -1,0 +1,31 @@
+
+-- Basic Architecture --
+
+//Create new tournament//
+
+  //Tournament name: 
+  //sport?
+    select from list.
+  //how many teams? enter a number only.
+
+    enter
+    
+<New page>
+add new team:
+    // basketball (min 5, max 16)
+    // soccer      (min 11, max 22)
+    // padel       (min 1, max 2)
+      // create team:
+        // team index, team name
+        // inside team:
+          //head coach?,  delete team, add players,  save team, edit team,:
+          //  button add players[name, number]. 
+
+//player item display: name, number, button (edit[name?, number?] , delete player)
+// create a team list card with input. add a delete button inside the list card
+//Needs a team list card, with each team item, needs a inside list
+
+
+//TODOS:
+NewPage: join using code. 
+CreateTournament: save data and use it in new page. check out how to do it?

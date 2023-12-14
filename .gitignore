@@ -6,10 +6,16 @@ yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
-
-node_modules
 #opcionales, meterlos hasta produccion.
+node_modules
 READMEVite.md
+package-lock.json
+package.json
+tsconfig.json
+tsconfig.node.json
+vite.config.ts
+.eslintrc.cjs
+#opcionales, meterlos hasta produccion.
 
 dist
 dist-ssr
