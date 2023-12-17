@@ -1,0 +1,11 @@
+TODOS:
+create component join using code.
+create userForm for Creating team.
+
+Create component team
+Create component Player
+
+DONES:
+CreateTeam main structure
+
+

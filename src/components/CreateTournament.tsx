@@ -1,21 +1,22 @@
+import { InputElement } from "./InputElement";
+import { SubmitButton } from "./elements/SubmitButton";
+
 export const CreateTournament = () => {
   return (
-    <div className="d-flex justify-content-center mt-5  ">
-      <div className="card    col-sm-10 col-md-8 col-lg-6 ">
-        <div className="card-body form-control  ">
-          <h1 className="card-title">Create tournament</h1>
-          <div className="card-body input-group d-flex  justify-content-center     ">
-            <form className="" action="">
-              <div className="    ">
-                <input
-                  className="mb-3 rounded w-100 "
-                  type="text"
-                  id="tournamentName"
-                  placeholder="Insert Tournament Name"
-                />
-              </div>
+    <div className="mx-auto justify-content-center mt-5  card    col-sm-10 col-md-8 col-lg-6">
+      <h1 className="card-title">Create tournament</h1>
+        <div className="card-body input-group d-flex  justify-content-center ">
+            <form   className=" was-validated"  action="">
 
-              <div className="input-group mb-3 mx-auto ">
+              <InputElement 
+              
+              id="tournamentName"
+              type="text"
+              placeholder="Insert tournament name"
+              label="Tournament name"
+              ></InputElement>
+
+              <div id="sportType" className="input-group my-3 mx-auto ">
                 <label
                   className="input-group-text"
                   htmlFor="inputGroupSelect01"
@@ -30,28 +31,26 @@ export const CreateTournament = () => {
                 </select>
               </div>
 
-              <input
-                className="mb-3 rounded  w-100"
-                type="number"
-                min={2}
-                name=""
-                id=""
-                placeholder="Number of teams in tournament"
-              />
+              <InputElement
+              type="number"
+              min={2}
+              id="NumberOfTeams"
+              label="Number of teams"
+              placeholder="set a number"
+              
+              ></InputElement>
+ 
+ 
 
-              <button type="submit" className="btn btn-primary w-100 ">
-                Create
-              </button>
+            <SubmitButton text="Create tournament"></SubmitButton>
+              
               <p className="   text-center pt-3  ">or</p>
-              <button type="button" className="btn btn-primary w-100  mt-3 ">
-                Join Current Tournament
-                
-              </button>
+
+            <SubmitButton text="Join Current Tournament"></SubmitButton> 
             </form>
-          </div>
+         
         </div>
       </div>
-      
-    </div>
+   
   );
 };

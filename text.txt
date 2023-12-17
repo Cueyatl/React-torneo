@@ -26,6 +26,19 @@ add new team:
 //Needs a team list card, with each team item, needs a inside list
 
 
-//TODOS:
-NewPage: join using code. 
-CreateTournament: save data and use it in new page. check out how to do it?
+//LATER-TODOS:
+
+°NewPage: join using code. 
+°CreateTournament: save data and use it in new page. check out how to do it?
+°Investigate React router for connecting various components/websites? 
+example given: 
+              import React from 'react';
+              import { Link } from 'react-router-dom';
+
+              const MyComponent = () => {
+                return (
+                  <Link to="/another-file">Click Me!</Link>
+                );
+              };
+
+              export default MyComponent;
